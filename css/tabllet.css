@@ -1,0 +1,119 @@
+@media(max-width: 745px) {
+
+    /* Header */
+    header {
+        padding-inline: 24px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .back {
+        display: block;
+    }
+
+    .header_nav {
+        width: 240px;
+        height: 260px;
+        position: fixed;
+        top: 96px;
+        background-color: #B53B1B;
+        left: -100%;
+        padding-top: 34px;
+        padding-left: 34px;
+        transition: 0.3s linear;
+    }
+
+    .header_ul {
+        flex-direction: column;
+        row-gap: 24px;
+    }
+
+    .signin {
+        display: none;
+    }
+
+    .header_right {
+        column-gap: 8px;
+    }
+
+    /* Section1 */
+    .home_section_title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .home_section_cover {
+        row-gap: 32px;
+
+    }
+
+    /* Section 2 */
+    .section2 {
+        padding: 64px 0px 64px 24px;
+    }
+
+    /* footer */
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        row-gap: 32px;
+    }
+    .footer_nav_ul_contact{
+        display: flex;
+    }
+    .footer_span{
+    display: none;
+        
+    }
+
+    /* Atworks */
+    .atworks_section2 {
+        padding-top: 64px;
+        padding-left: 24px;
+    }
+
+    .atworks_section2_h3 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    .atworks_top_right{
+        display: none;
+    }
+    .frame{
+        display: block;
+    }
+    
+    .atworks_section2_section{
+        padding-top: 48px;
+    }
+    .article6,
+    .article5 {
+        display: none;
+    }
+
+    .page_button {
+        width: 391px;
+        height: 56px;
+    }
+
+    /* Contact */
+    .contact {
+        padding: 32px 24px;
+    }
+
+    .mainSection {
+        padding-inline: 16px;
+        flex-direction: column;
+        row-gap: 64px;
+    }
+
+    .formSection,
+    .mapSection {
+        width: 100%;
+    }
+}

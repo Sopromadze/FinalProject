@@ -1,0 +1,82 @@
+/* 480-320 */
+@media (max-width: 481px) {
+
+    /* header */
+header{
+    padding-inline: 20px ;
+}
+/* Section1 */
+.home_section_title{
+    font-size: 24px;
+    line-height: 32px;
+}
+.home_section_cover{
+    height: 304px;
+}
+/* Atworks */
+.atworks_section2{
+    padding-top: 48px;
+}
+.page_button{
+    width: 240px;
+    height: 40px;
+}
+.atworks_section2_section{
+    padding-top: 32px;
+}
+/* contact */
+.contact {
+    padding: 16px 8px;
+}
+
+.mainSection {
+    padding-inline: 8px;
+    row-gap: 48px;
+}
+
+.formSection,
+.mapSection,
+form {
+    row-gap: 24px;
+}
+
+.formTitle {
+    font-size: 24px;
+    line-height: 32px;
+}
+}
+
+
+
+
+
+
+@media (max-width: 321px) {
+
+    /* header */
+header{
+    padding-inline: 8px ;
+}
+/* Section1 */
+.home_section_title{
+    font-size: 24px;
+    line-height: 32px;
+}
+.home_section_cover{
+    height: 304px;
+}
+/* Section 2 */
+.section2{
+    padding: 48px 0px 48px 8px;
+}
+.section2_section_article_h4{
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+text-align: center;
+
+}
+/* Atworks */
+
+
+}

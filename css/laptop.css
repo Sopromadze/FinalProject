@@ -1,0 +1,41 @@
+@media (max-width: 1181px){
+    /* Header */
+    header{
+        padding-inline: 32px;
+    }
+    .logo_img{
+        display: none;
+    }
+    
+    .mini{
+        display: block;
+    }
+    /* Section article */
+    .section2{
+        padding:120px 0px 120px 32px ;
+    }
+    .section2_section{
+        overflow-x: scroll;
+    }
+    .section2_section_article {
+        flex: 1 0 282px;
+    }
+    /* footer */
+    .footer{
+        padding: 80px 32px;
+    }
+
+    /* Atworks Section */
+    .atworks_section2{
+        padding-inline: 32px;
+    }
+    .article7,
+    .article8,
+    .article9{
+    display: none;
+    }
+    /* contact */
+    .contact {
+        padding-inline: 24px;
+    }
+}
